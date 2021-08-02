@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <form>
+        <label>Welcome to Sign up page</label>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text" placeholder="First name">                    </td>
+                </tr>
+            <tr>
+                <td>Surname</td>
+                <td>
+                    <input type="text" placeholder="Last name">
+               </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="date"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="text" placeholder="Enter email id">
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+        </table>
+        <p>*Password must contain:</p>
+        <p>
+            <ul>
+                <li>One uppercase letter required</li>
+                <li>One lowercase letter required</li>
+                <li>One number required</li>
+                <li>One special character required</li>
+                <li>At least 8 characters required</li>
+            </ul>
+        </p>
+        <table>
+            <tr>
+                <td>Confirm Password</td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Address</td>
+                <td>
+                    <input type="text" placeholder="Line 1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Line 2">
+                </td>
+            </tr>
+            <tr>
+                <td>Select city</td>
+                <td>
+                    <input list="city">
+                    <datalist id="city">
+                        <option value="London"></option>
+                        <option value="Birmingham"></option>
+                        <option value="Liverpool"></option>
+                        <option value="Manchester"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <Td>Postal code</Td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Select Theatre</td>
+                <td>
+                    <input type="checkbox" name="ch1"/>Theatre 1<br>
+                    <input type="checkbox" name="ch2"/>Theatre 2<br>
+                    <input type="checkbox" name="ch3"/>Theatre 3
+                </td>
+            </tr>
+            <tr>
+                <td>Preferred Time</td>
+                <td>
+                    <select>
+                        <option value="09.00-12.00">9AM-12PM</option>
+                        <option value="12.00-15.00">12PM-3PM</option>
+                        <option value="15.00-18.00">3PM-6PM</option>
+                        <option value="18.00-21.00">6PM-9PM</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                   <input type="submit" value="Sign Up"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Already Signed up?</td>
+                <td>
+                    <a href="signin.html"/>Sign in<a/>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
